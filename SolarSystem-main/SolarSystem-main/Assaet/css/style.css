@@ -1,0 +1,350 @@
+
+*{
+   margin: 0px;
+   padding: 0px;
+   font-family: 'Roboto', sans-serif;
+}
+/* navbar */
+.navbar-brand h2{
+    color: #80C52E;
+    font-weight: 400;
+  }
+   .nav-item {
+       margin-left: 0px;
+       font-weight: 400;
+    
+   }
+   .nav-link{
+    font-size: 14px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-family: 'Roboto', sans-serif;
+   }
+  .nav-link:hover{
+    color:#80C52E !important;
+   }
+   
+
+
+/* Zoom Effect */
+.gallary{
+   transition: all 0.3s ease-out;
+}
+.gallary:hover{
+   transform:scale(1.1);
+      
+}
+
+
+/* back to Home */
+   
+.about{
+   background: #14100f;
+   height: auto;
+}
+li a{
+text-decoration: none;
+color:#80C52E;
+}
+li :hover{
+color:#80C52E;
+cursor: pointer;
+
+}
+  
+
+
+   /* home_slider */
+
+
+   .slider_1{
+      height: 100%;
+      width: 100%;
+      background-color: hsla(150, 100%, 64%, 0.6);
+      color: white;
+      text-align: center;
+      position: relative;
+   }
+   
+   .slider_2{
+      height: 100%;
+      width: 100%;
+      background-image: url(https://wallpaperaccess.com/full/1663640.jpg);
+      background-repeat: no-repeat;
+      background-size: 100% 100%; 
+      background-attachment: fixed;
+   }
+   .slider_3{
+      height: 400px;
+   
+   }
+
+/*home_our_servises */
+.ser_img{
+   border-radius: 5px;
+}
+
+
+
+
+/* About us */
+
+span a{
+   text-decoration: none;
+   color: white;
+}
+
+.img1{
+   height: 300px;
+   width: 100%;
+   background-image: url('https://eltron.bolvo.com/demo2/wp-content/uploads/sites/4/2020/06/bcbg.jpg');
+   float: left;
+   background-repeat: no-repeat;
+   background-size: cover;
+   
+}
+.img2{
+   height:300px;
+   width:100%;
+   float: left;
+   background-color: hsla(0,100%,0%,0.6);
+   background-size: cover;
+   
+}
+
+.our_team{
+   text-align: center;
+   position: relative;
+   color: #fff;
+}
+.our_team img{
+   width: 100%;
+}
+.our_team .content{
+   background-color: rgba(0, 0, 0, 0.6);
+   position: absolute;
+   height: 100%;
+   width: 100%;
+   left: 0;
+   top: 0;
+   text-align: center;
+   padding-top:20px;
+   transform: perspective(400px) rotateX(-90deg);
+   transform-origin: center top 0;
+   transition: all 0.5s ease 0s;
+   opacity: 0;
+}
+
+.our_team:hover .content, 
+.our_team.active .content{
+   opacity: 1;
+   transform: perspective(400px) rotateX(0deg);
+}
+.our_team .content .title{
+   margin: 0 0 10px;
+   display: block;
+   font-size: 25px;
+   font-weight: 600;
+}
+.our_team .content .post{
+   margin: 0 0 25px;
+   display: block;
+   font-size: 15px;
+}
+.our_team .social{
+   margin: 0px;
+   padding: 0px;
+   list-style-type: none;
+}
+.our_team .social li{
+   display: inline-block;
+}
+.our_team .social li a{
+   display: inline-block;
+   color: white;
+   font-size: 20px;
+   height: 40px;
+   width: 40px;
+   line-height: 40px;
+   border-radius: 50%;
+   background-color: #80C52E;
+   margin-right: 5px;
+   transition: all 0.5s ease 0s;
+   position: relative;
+}
+
+
+
+.button2{
+   padding: 15px 40px;
+   background: none;
+   border: none;
+   border: 2px solid deepskyblue;
+   color:black;
+   border-radius: 30px;
+   font-weight: bolder;
+
+}
+
+.button2:hover{
+   background-color:#80C52E;
+   background-color:deepskyblue;
+   color:white;
+   font-weight:bolder;
+}
+
+
+ /* searvice page */
+
+.button{
+   padding: 10px 20px;
+   background-color: #0693e3;
+   border: none;
+   font-weight: bolder;
+   color: white;
+}
+
+.button:hover{
+   background-color: #80C52E;
+   color:black;
+}
+
+/* searvice_consaltant */
+.mid1{
+   height: 400px;
+   width: 100%;
+   background-image: url('https://solarwp.wpengine.com/wp-content/uploads/2016/09/winner-trans-img.jpg');
+   float: left;
+   background-repeat: no-repeat;
+   background-size: cover;
+   
+}
+
+.mid2{
+   width:100%;
+   height: 400px;
+   float: left;
+   position: absolute;
+   background-color:rgba(0,0,0,0.8); 
+}
+
+
+/* progress bar */
+.progress_bg{
+background: #ded5d2
+}
+.progress_bar0{
+margin-top: -10px;
+height: 10px;
+   animation-name: for;
+animation-duration:4S;
+animation-fill-mode: forwards;
+ background-color: #80C52E;
+}
+
+@keyframes for{
+0%{width: 0%;}
+100%{width: 40%;}
+}
+.progress_bar1{
+margin-top: -10px;
+height: 10px;
+   animation-name: fo;
+animation-duration:3S;
+animation-fill-mode: forwards;
+ background-color: #80C52E;
+}
+
+@keyframes fo{
+0%{width: 0%;}
+100%{width: 50%;}
+}
+.progress_bar00{
+margin-top: -10px;
+height: 10px;
+   animation-name: f;
+animation-duration:3S;
+animation-fill-mode: forwards;
+ background-color: #80C52E;
+}
+
+@keyframes f{
+0%{width: 0%;}
+100%{width: 75%;}
+}
+.progress_bar2{
+margin-top: -10px;
+height: 10px;
+   animation-name: f1;
+animation-duration:3S;
+animation-fill-mode: forwards;
+ background-color: #80C52E;
+}
+
+@keyframes f1{
+0%{width: 0%;}
+100%{width: 75%;}
+}
+
+
+.progress_bar3{
+margin-top: -10px;
+height: 10px;
+   animation-name: f00;
+animation-duration:3S;
+animation-fill-mode: forwards;
+ background-color: #80C52E;
+}
+
+@keyframes f00{
+0%{width: 0%;}
+100%{width: 85%;}
+}
+
+
+
+
+
+
+
+
+/* Blog_page */
+
+.blog_heding h2:hover{
+   color: #80C52E;
+}
+
+
+   
+       
+   
+/*footer*/
+.futter{
+    height: auto;
+    background: black;
+}
+.futter1{
+   height: auto;
+   width: 100%;
+   background: #14100f;
+}
+.footer_icon i{
+   color: #80C52E;
+}
+.aa{
+   color: #80C52E;
+}
+.footer_heding h5{
+   color: #80C52E;
+}
+.footer_logo i{
+   background-color: #333333;
+   padding: 10px;
+}
+.footer_logo i:hover{
+   background-color: #80C52E;
+   transition: all 0.5s ease-in-out;
+}
+
+
+
